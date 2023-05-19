@@ -1,0 +1,3 @@
+import pirmo_pirmas
+import pirmo_antras
+import pirmo_trecias

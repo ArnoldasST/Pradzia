@@ -1,0 +1,10 @@
+sarasas = [2.5, 2, "Labas", True, 5, 7, 8, 2.8, "Vakaras"]
+filtras = filter(lambda x: type(x) is int or type(x) is float, sarasas)
+filtro_list = list(filtras)
+print(sum(filtro_list))
+string_filtras = filter(lambda x: type(x) is str, sarasas)
+filtro_list = list(string_filtras)
+sujungta = " ".join(filtro_list)
+print(sujungta)
+bool_kiekis = sum(type(c) is bool for c in sarasas)
+print(bool_kiekis)

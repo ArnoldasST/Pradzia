@@ -1,0 +1,3 @@
+1 Zen of Python
+2 Gražu yra geriau nei bjauru.
+3 2023-05-16 16:10:59
